@@ -1,6 +1,7 @@
 # 🧠 Recursive Sudoku Reasoner 
 
 > **A Transformer that "thinks" before it answers.**
+
 > **Implementation of "Less is More: Recursive Reasoning with Tiny Networks"**
 > *[Read the Paper on arXiv](https://arxiv.org/abs/2510.04871)*
 
