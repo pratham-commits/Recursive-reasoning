@@ -83,7 +83,12 @@ tab_paper, tab_demo = st.tabs(["TRM details", "Demo"])
 # === TAB 1: THE PAPER ===
 with tab_paper:
     st.title("Tiny Recursive Models (TRM)")
-    st.markdown("**Based on: *Less is More: Recursive Reasoning with Tiny Networks* (arXiv:2510.04871v1)**")
+    col_head1, col_head2 = st.columns([3, 1])
+    with col_head1:
+        st.markdown("Based on: *Less is More: Recursive Reasoning with Tiny Networks*")
+    with col_head2:
+        # LINK TO PAPER
+        st.link_button("📄 Read Official Paper", "https://arxiv.org/abs/2510.04871")
     
     st.info("💡 **Core Thesis:** A single tiny network (2 layers), recursing on its own output, can outperform massive LLMs on logic tasks by effectively 'simulating' depth.")
 
