@@ -1,6 +1,8 @@
 # 🧠 Recursive Sudoku Reasoner 
 
 > **A Transformer that "thinks" before it answers.**
+> **Implementation of "Less is More: Recursive Reasoning with Tiny Networks"**
+> *[Read the Paper on arXiv](https://arxiv.org/abs/2510.04871)*
 
 ## 📖 Overview
 Standard AI models (like ChatGPT) often struggle with logical constraints because they try to predict the answer in a single pass. This project implements a **Recursive Transformer (TRM)**—a specialized architecture that re-processes its own output multiple times ("thinking loops") to refine its logic and solve Sudoku puzzles without external search algorithms.
