@@ -1,4 +1,4 @@
-# 🧠 Recursive Sudoku Reasoner (Sudoku-AGI)
+# 🧠 Recursive Sudoku Reasoner 
 
 > **A Transformer that "thinks" before it answers.**
 
